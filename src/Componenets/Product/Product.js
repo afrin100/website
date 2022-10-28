@@ -6,7 +6,7 @@ const Product = (props) => {
   const {product,handleClick}=props
     const {name,img,price,seller,ratings}=props.product;
 
-    console.log(props)
+    // console.log(props)
     return (
         <div className='product'>
           <img src={img} alt="" />
